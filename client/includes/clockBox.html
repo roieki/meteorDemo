@@ -1,0 +1,25 @@
+<template name="gameClockBox">
+    {{#gameClockBox gameClock}}
+    {{period}}
+    {{hours}}
+    {{minutes}}
+    {{seconds}}
+    {{/gameClockBox}}
+</template>
+
+<template name="gameQuarterBox">
+    {{#gameQuarterBox gameClock}}
+    {{period}}
+    {{/gameQuarterBox}}
+</template>
+
+<template name="playClockBox">
+  <div id="playClockBox">
+    : {{#playClockBox playClock}}
+    {{seconds}}
+    {{/playClockBox}}
+    <br />
+    Prediction Clock
+  </div>
+</template>
+
